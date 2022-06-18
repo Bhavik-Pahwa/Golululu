@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.title{
+    color: black;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}

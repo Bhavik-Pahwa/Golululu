@@ -1,0 +1,174 @@
+body{
+    user-select: none;
+}
+
+.nav{
+    height: 20vh;
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+}
+
+.logo{
+    justify-self: flex-end;
+    font-size: 40px;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.rightbtn{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.rightbtn:hover{
+    text-decoration: underline;
+}
+
+.cart{
+    width: 48px;
+    cursor: pointer;
+}
+
+#catalogue{
+    box-sizing: border-box;
+    position: absolute;
+    height: 66vh;
+    width: 75vw;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    background-color: black;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#cata-left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+#division{
+    width: 1px;
+    height: 90%;
+    background-color: white;
+}
+
+#cata-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#catagory{
+    height: 60%;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+i{
+    font-size: 18px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 32.5%;
+}
+
+i:hover{
+    text-decoration: underline white;
+}
+
+#arrow{
+    width: 16px;
+    margin: 5px 0 0 5px;
+}
+
+b{
+    border: 1px solid white;
+    padding: 15px 0;
+    font-size: 20px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+
+p:hover, b:hover{
+    background-color: white;
+    color: black;
+    transition: ease-in-out 200ms;
+    font-weight: bold;
+}
+
+i:active{
+    color: rgb(247, 236, 216);
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.indian-btn{
+    width: 45%;
+}
+
+.indian{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.login{
+    height: 48px;
+}
